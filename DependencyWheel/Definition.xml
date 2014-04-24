@@ -1,0 +1,20 @@
+<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 Type="object"
+                 Label="Dependency Wheel" 
+		         Path="DependencyWheel"
+                 Description="Dependency Wheel" 
+                 PageHeight="2000"
+                 PageWidth="13" >
+  <Dimension Label="Parent Node" Initial="Parent" TargetName="Dimension Name"  Width="600px" />
+  <Dimension Label="Child Node" Initial="Child" TargetName="Dimension Name"  Width="600px" />
+  <Measurement Label="Edge Weight" Initial=""/>
+  <Text Label="Directed Graph" Type="checkbox" Expression="1"/>
+  <Text Label="Max. Label Length" Type="text" Expression="20"/>
+  <Text Label="Empty Dim. Label" Type="text" Expression=""/>
+  <Initiate Name="Chart.Title" value="Dependency Wheel" />
+  <Initiate Name="Caption.Text" Value="Dependency Wheel"/>
+  <Initiate Name="Chart.Dimension.0.0.Definition" Value="Node1_ID" />
+  <Initiate Name="Chart.Dimension.1.0.Definition" Value="Node2_ID" />
+  <Initiate Name="Chart.Expression.0.0.Definition" Value="sum(Value)" />
+  <Initiate Name="Chart.BgColor.ColorHex" value="#FFF" /> 
+</ExtensionObject>
