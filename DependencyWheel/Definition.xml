@@ -13,8 +13,8 @@
   <Text Label="Empty Dim. Label" Type="text" Expression=""/>
   <Initiate Name="Chart.Title" value="Dependency Wheel" />
   <Initiate Name="Caption.Text" Value="Dependency Wheel"/>
-  <Initiate Name="Chart.Dimension.0.0.Definition" Value="Node1_ID" />
-  <Initiate Name="Chart.Dimension.1.0.Definition" Value="Node2_ID" />
-  <Initiate Name="Chart.Expression.0.0.Definition" Value="sum(Value)" />
+  <Initiate Name="Chart.Dimension.0.Field" Value="Node1_ID" />
+  <Initiate Name="Chart.Dimension.1.Field" Value="Node2_ID" />
+  <Initiate Name="Chart.Expression.0.0.Definition" Value="=sum(Value)" />
   <Initiate Name="Chart.BgColor.ColorHex" value="#FFF" /> 
 </ExtensionObject>

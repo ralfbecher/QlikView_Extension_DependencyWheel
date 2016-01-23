@@ -1,0 +1,11 @@
+text.mono {
+	font-size: 8pt;
+	font-family: "QlikView Sans", sans-serif;
+	fill: #595959;
+}
+
+text.mono-small {
+	font-size: 6pt;
+	font-family: "QlikView Sans", sans-serif;
+	fill: #595959;
+}
